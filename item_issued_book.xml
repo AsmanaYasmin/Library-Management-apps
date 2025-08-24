@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textBookName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="book name"
+        android:layout_weight="1"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textMemberName"
+        android:layout_width="0dp"
+        android:text="member name"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/btnReturnBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:textColor="@android:color/white"
+        android:background="@color/toolbar"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"/>
+
+</LinearLayout>
